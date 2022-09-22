@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.radio-wrapper {
+  margin: 0 auto;
+  width: 20%;
+}
+.radio-component {
+  border: 1px dotted black;
+  text-align: center;
+}
+
+.radio-component-header {
+  color: white;
+  padding: 2% 3% 2%;
+  background-color: orange;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-component-body {
+  background-color: darkslategray;
+  padding: 2% 3% 2%;
+  color: lightgray;
+}
+
+.radio-station {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.station-separator {
+  margin: 0;
+  border-width: 1px 0 0;
+  border-color: lightgray;
+}
